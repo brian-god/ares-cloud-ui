@@ -1,6 +1,6 @@
 {
   "name": "ares-cloud-ui",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,7 @@
     }
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ares",
   "devDependencies": {
     "@types/react": "^16.9.55",
     "@types/react-dom": "^16.9.9",
@@ -48,5 +47,18 @@
       "stylelint --syntax less --fix",
       "git add"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-god/ares-cloud-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/brian-god/ares-cloud-ui/issues"
+  },
+  "dependencies": {
+    "antd": "^4.7.3"
   }
 }
